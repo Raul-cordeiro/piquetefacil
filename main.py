@@ -2,7 +2,7 @@ from flask import Flask, render_template, send_file, url_for, request
 import geopandas as gpd
 import folium
 import os
-from PIL import Image, ImageDraw, ImageFont
+
 
 app = Flask(__name__)
 
